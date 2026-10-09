@@ -28,7 +28,11 @@ def main(arch: str, out: str) -> None:
         sys.exit(f"integrity mismatch for {url}")
     with tarfile.open(fileobj=io.BytesIO(data), mode="r:gz") as tar:
         member = tar.getmember("package/claude")
-        binary = tar.extractfile(member).read()
+        handle = tar.extractfile(member)
+        if handle is None:
+            sys.exit("package/claude is not a regular file")
+        binary = handle.read()
+    os.makedirs(os.path.dirname(os.path.abspath(out)), exist_ok=True)
     with open(out, "wb") as fh:
         fh.write(binary)
     os.chmod(out, 0o755)
