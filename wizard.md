@@ -6,6 +6,7 @@ type: external
 category: system
 version: 0.1.0
 summary: Connect your Claude subscription once, and every agent on the box uses it.
+icon: icon.png
 license: MIT
 source: https://github.com/oscarhenrycollins/ai-accounts
 runtime:
