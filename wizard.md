@@ -4,6 +4,7 @@ id: wizard-ai-accounts
 name: AI Accounts
 type: external
 category: system
+tags: [security]
 version: 0.1.0
 summary: Connect your Claude subscription once, and every agent on the box uses it.
 icon: icon.png
