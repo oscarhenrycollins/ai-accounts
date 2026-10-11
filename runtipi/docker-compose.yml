@@ -12,7 +12,7 @@ services:
     mem_limit: 128m
     environment:
       WIZARD_APP: wizard-ai-accounts
-      APP_VERSION: 0.1.0
+      APP_VERSION: 0.1.1
       FRONT_PORT: "8795"
       UPSTREAM_HOST: wizard-ai-accounts-engine
       UPSTREAM_PORT: "8795"
@@ -230,7 +230,7 @@ services:
       is_main: true
       internal_port: 8795
   wizard-ai-accounts-engine:
-    image: ghcr.io/humanitylabs-org/wizard-ai-accounts:0.1.0@sha256:026731a7b665c53870c27718877538cb20a0621f5e2246810b3ae63b14e18fd8
+    image: ghcr.io/humanitylabs-org/wizard-ai-accounts:0.1.1@sha256:53ad8157c8e67f9a1a9c4d903ca50efcf795e8a63338f007635fb13bf107d0c6
     user: "1000:1000"
     read_only: true
     cap_drop: [ALL]

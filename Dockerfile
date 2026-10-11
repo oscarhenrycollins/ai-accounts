@@ -6,7 +6,7 @@ RUN python3 /fetch-claude-code.py "$TARGETARCH" /claude
 
 FROM python:3.12-slim-bookworm@sha256:34386ef0cb081344d7ec1c103ba398e6e9f64e9ab3a1509accc92a4e24a07258
 ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1 \
-    CLAUDE_CODE_VERSION=2.1.263 DISABLE_AUTOUPDATER=1 \
+    CLAUDE_CODE_VERSION=2.1.296 DISABLE_AUTOUPDATER=1 \
     AI_ACCOUNTS_CLAUDE_DIR=/claude AI_ACCOUNTS_PORT=8795
 LABEL org.opencontainers.image.source="https://github.com/humanitylabs-org/wizard-app-store" \
       org.opencontainers.image.description="AI Accounts: connect a Claude subscription once with the official Claude Code login; agent apps reuse it" \

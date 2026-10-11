@@ -10,8 +10,8 @@
     "network"
   ],
   "description": "The one place to connect AI subscriptions for your Wizard server. Phase 1: your Claude Pro or Max subscription, signed in with Anthropic's official Claude Code login. Hermes Agent (Wizard build) then uses it through NousResearch's official Claude Subscription plugin. ChatGPT sign-in and API keys are coming later. Your sign-in stays in a private shared folder and is never shown or sent anywhere by this app.",
-  "tipi_version": 2,
-  "version": "0.1.0",
+  "tipi_version": 3,
+  "version": "0.1.1",
   "source": "https://github.com/oscarhenrycollins/ai-accounts",
   "exposable": false,
   "supported_architectures": [

@@ -5,7 +5,7 @@ name: AI Accounts
 type: external
 category: system
 tags: [security]
-version: 0.1.0
+version: 0.1.1
 summary: Connect your Claude subscription once, and every agent on the box uses it.
 icon: icon.png
 license: MIT

@@ -26,7 +26,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 APP = Path(__file__).resolve().parent
 CLAUDE = os.environ.get("AI_ACCOUNTS_CLAUDE", "/usr/local/bin/claude")
 CLAUDE_DIR = os.environ.get("AI_ACCOUNTS_CLAUDE_DIR", "/claude")
