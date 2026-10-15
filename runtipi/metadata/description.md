@@ -1,5 +1,7 @@
 # AI Accounts
 
+**Deprecated: replaced by the Claude and ChatGPT apps (decision #61).** Install **Claude** from the Wizard App Store; it uses the same sign-in folder, so you stay connected. Then you can uninstall AI Accounts.
+
 The one place to connect your AI subscriptions for this Wizard server. Your agents use them from here, so you sign in once.
 
 **Phase 1: Claude subscription (Pro or Max).** ChatGPT sign-in and API keys (OpenRouter, Tinfoil, OpenAI, Anthropic) are shown as "coming soon".

@@ -1,4 +1,6 @@
-# AI Accounts
+# AI Accounts (deprecated)
+
+> **Deprecated.** Replaced by the Claude and ChatGPT apps (decision #61). Install [Claude](https://github.com/oscarhenrycollins/claude-connection): it uses the same sign-in volume, so you stay connected, then uninstall AI Accounts.
 
 Connect your Claude subscription once, and every agent on the box uses it.
 
