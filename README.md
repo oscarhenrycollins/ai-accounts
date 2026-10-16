@@ -14,3 +14,7 @@ A [Wizard app](https://www.aiwizards.com/wizard-apps) (System App). Open its pag
 - `.github/workflows/publish.yml`: every push to `main` re-publishes to the index.
 
 Personal use of your own subscription on your own server. Products for other people should use API keys.
+
+## Deprecated
+
+This app is retired and no longer listed in the Wizard App Index. Use the Claude and ChatGPT apps instead (decision #61); the Claude app keeps your sign-in. The last listed manifest is in git history.
